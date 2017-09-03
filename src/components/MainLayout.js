@@ -1,3 +1,5 @@
+/* eslint-disable flowtype/require-valid-file-annotation */
+
 import React from 'react';
 import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
@@ -12,18 +14,25 @@ import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui-icons/Menu';
 import ChevronLeftIcon from 'material-ui-icons/ChevronLeft';
 import { mailFolderListItems, otherMailFolderListItems } from './menu/tileData';
+import Header from './home/Header';
+//import Paper from 'material-ui/Paper';
+//import Grid from 'material-ui/Grid';
 
 import {
-    Switch,
-    Route
+  Switch,
+  Route,
+  NavLink
 } from 'react-router-dom'
 import routes from './routes'
+import '../App.css';
+
+
 const drawerWidth = 240;
 
 const styles = theme => ({
   root: {
     width: '100%',
-    height: 430,
+    height: '100%',
     marginTop: theme.spacing.unit * 0,
     zIndex: 1,
     overflow: 'hidden',
@@ -129,7 +138,7 @@ class PersistentDrawer extends React.Component {
                 <MenuIcon />
               </IconButton>
               <Typography type="title" color="inherit" noWrap>
-                Persistent drawer
+                  <Header/>
               </Typography>
             </Toolbar>
           </AppBar>
@@ -152,10 +161,10 @@ class PersistentDrawer extends React.Component {
               <List className={classes.list}>{otherMailFolderListItems}</List>
             </div>
           </Drawer>
-          <main className={classNames(classes.content, this.state.open && classes.contentShift)}>
-            <Typography type="body1" noWrap>
-              {'You think water moves fast? You should see ice.'}
-            </Typography>
+
+          <div className={classNames(classes.content, this.state.open && classes.contentShift)}>
+
+
             <Switch>
               {routes.map((route, index) => (
                 <Route
@@ -167,7 +176,8 @@ class PersistentDrawer extends React.Component {
               ))}
               <Route component={NoMatch} />
             </Switch>
-          </main>
+
+          </div>
         </div>
       </div>
     );
@@ -182,7 +192,7 @@ export default withStyles(styles)(PersistentDrawer);
 
 
 const NoMatch = ({ location }) => (
-    <div>
-        <h3>No se encontró la página <code>{location.pathname}</code></h3>
-    </div>
+  <div>
+    <h3>No se encontró la página <code>{location.pathname}</code></h3>
+  </div>
 )
