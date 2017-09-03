@@ -8,8 +8,24 @@ import MailIcon from 'material-ui-icons/Mail';
 import DeleteIcon from 'material-ui-icons/Delete';
 import ReportIcon from 'material-ui-icons/Report';
 
+import {
+    Switch,
+    Route,
+    Link,
+    NavLink
+
+} from 'react-router-dom'
+  
+
 export const mailFolderListItems = (
   <div>
+    <ul style={{ listStyleType: 'none', padding: 0 }}>
+      <li><NavLink exact to="/" activeClassName="selected">Home</NavLink></li>
+      <li><NavLink exact to="/abouts" activeClassName="selected">abouts</NavLink></li>
+      <li><NavLink exact to="/one" activeClassName="selected">one</NavLink></li>
+      <li><NavLink exact to="/counters" activeClassName="selected">Counter</NavLink></li>
+      <li><NavLink exact to="/users" activeClassName="selected">users</NavLink></li>
+  </ul>
     <ListItem button>
       <ListItemIcon>
         <InboxIcon />

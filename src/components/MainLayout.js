@@ -13,6 +13,11 @@ import MenuIcon from 'material-ui-icons/Menu';
 import ChevronLeftIcon from 'material-ui-icons/ChevronLeft';
 import { mailFolderListItems, otherMailFolderListItems } from './menu/tileData';
 
+import {
+    Switch,
+    Route
+} from 'react-router-dom'
+import routes from './routes'
 const drawerWidth = 240;
 
 const styles = theme => ({
@@ -151,6 +156,17 @@ class PersistentDrawer extends React.Component {
             <Typography type="body1" noWrap>
               {'You think water moves fast? You should see ice.'}
             </Typography>
+            <Switch>
+              {routes.map((route, index) => (
+                <Route
+                  key={index}
+                  path={route.path}
+                  exact={route.exact}
+                  component={route.main}
+                />
+              ))}
+              <Route component={NoMatch} />
+            </Switch>
           </main>
         </div>
       </div>
@@ -163,3 +179,10 @@ PersistentDrawer.propTypes = {
 };
 
 export default withStyles(styles)(PersistentDrawer);
+
+
+const NoMatch = ({ location }) => (
+    <div>
+        <h3>No se encontró la página <code>{location.pathname}</code></h3>
+    </div>
+)
