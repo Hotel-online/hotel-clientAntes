@@ -6,7 +6,8 @@ class Home extends Component {
     render() {
         return (
             <div className="imgbackground" >
-              <p>Hola</p>
+              <h1>Hola</h1>
+              <input type="submit" name="" value="Reserve su cuarto  ya!!"/>
             </div>
         );
     }
