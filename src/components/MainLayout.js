@@ -11,7 +11,7 @@ import Divider from 'material-ui/Divider';
 import IconButton from 'material-ui/IconButton';
 import MenuIcon from 'material-ui-icons/Menu';
 import ChevronLeftIcon from 'material-ui-icons/ChevronLeft';
-//import { mailFolderListItems, otherMailFolderListItems } from './tileData';
+import { mailFolderListItems, otherMailFolderListItems } from './menu/tileData';
 
 const drawerWidth = 240;
 
@@ -19,7 +19,7 @@ const styles = theme => ({
   root: {
     width: '100%',
     height: 430,
-    marginTop: theme.spacing.unit * 3,
+    marginTop: theme.spacing.unit * 0,
     zIndex: 1,
     overflow: 'hidden',
   },
@@ -142,7 +142,9 @@ class PersistentDrawer extends React.Component {
                 </IconButton>
               </div>
               <Divider />
-              
+              <List className={classes.list}>{mailFolderListItems}</List>
+              <Divider />
+              <List className={classes.list}>{otherMailFolderListItems}</List>
             </div>
           </Drawer>
           <main className={classNames(classes.content, this.state.open && classes.contentShift)}>
