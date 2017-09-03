@@ -18,7 +18,7 @@ class About extends Component {
                 </select>
                 <input className="input" type="submit" name="" value="BUSCAR"/>
               </div>
-              <div>
+              <div className="texth1">
                 <h1>Te ayudamos a que pases una noche increible en nuestras fabulosas habitaciones</h1>
               </div>
             </div>

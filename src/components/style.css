@@ -36,3 +36,9 @@ body{
   justify-content: center;
   align-items: center
 }
+.texth1{
+  width: 430px;
+  text-align: center;
+  font-size: 23px;
+  margin-left: 88px;
+}
