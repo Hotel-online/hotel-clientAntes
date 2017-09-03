@@ -10,9 +10,9 @@ class Home extends Component {
 
     render() {
         return (
-            <div className="imgbackground" >
+            <div className="imgbackground portada" >
               <h1>Reserve su cuarto facil y rapido</h1>
-              <NavLink exact to="/abouts" activeClassName="selected"><input type="submit" name="" value="RESERVE SU CUARTO"/></NavLink>
+              <NavLink exact to="/abouts" activeClassName="selected"><input className="input" type="submit" name="" value="RESERVE SU CUARTO"/></NavLink>
 
             </div>
         );
