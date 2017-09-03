@@ -12,22 +12,22 @@ nav {
 	max-width:1000px;
 	width:90%;
 }
- 
+
 nav ul {
 	list-style:none;
 }
- 
+
 nav > ul {
 	display:table;
 	width:100%;
 	position:relative;
 }
- 
+
 nav > ul li {
 	display:table-cell;
 }
- 
- 
+
+
 nav > ul > li > ul {
 	display:block;
 	position:absolute;
@@ -41,7 +41,7 @@ nav > ul > li > ul {
 	-o-transition: all .3s ease;
 	transition: all .3s ease;
 }
- 
+
 nav > ul li a {
 	color:#fff;
 	display:block;

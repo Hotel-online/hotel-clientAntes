@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 
-
+import './style.css';
 class Home extends Component {
 
     render() {
         return (
-            <div className="img">
-
+            <div className="imgbackground" >
+              <p>Hola</p>
             </div>
         );
     }
