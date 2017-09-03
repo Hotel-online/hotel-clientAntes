@@ -15,14 +15,14 @@ const ListItemLink = ({ to, ...rest }) => (
     <Route exact path={to} children={({ match }) => (
         <Link to={to} {...rest}>
         <ListItem button className={match ? 'selected' : ''} >
-            
+
                 <ListItemIcon>
                     <InboxIcon />
                 </ListItemIcon>
                 <ListItemText primary={rest.label}>
 
                 </ListItemText>
-            
+
         </ListItem>
         </Link>
     )} />
@@ -31,7 +31,7 @@ const ListItemLink = ({ to, ...rest }) => (
 export const mailFolderListItems = (
     <div>
         <ListItemLink to="/" label="Home" />
-        <ListItemLink to="/abouts" label="abouts" />
+        <ListItemLink to="/abouts" label="Buscar cuarto" />
         <ListItemLink to="/one" label="one" />
         <ListItemLink to="/counters" label="counters" />
         <ListItemLink to="/users" label="users" />
