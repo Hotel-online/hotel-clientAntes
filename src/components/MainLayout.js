@@ -81,15 +81,16 @@ const styles = theme => ({
   },
   content: {
     width: '100%',
+
     marginLeft: -drawerWidth,
     flexGrow: 1,
     backgroundColor: theme.palette.background.default,
-    padding: theme.spacing.unit * 3,
+
     transition: theme.transitions.create('margin', {
       easing: theme.transitions.easing.sharp,
       duration: theme.transitions.duration.leavingScreen,
     }),
-    marginTop: 56,
+    marginTop: 64,
     [theme.breakpoints.up('sm')]: {
       content: {
         height: 'calc(100% - 64px)',
