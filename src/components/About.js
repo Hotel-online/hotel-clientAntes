@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class About extends Component {
     render() {
         return (
-            <div className="imgbackground">
+            <div className="imgbackground buscador">
               <div className="form">
                 <select className="input">
                   <option value="Categoria">Categoria</option>
@@ -17,7 +17,9 @@ class About extends Component {
                   <option value="Familiar">Familiar</option>
                 </select>
                 <input className="input" type="submit" name="" value="BUSCAR"/>
-
+              </div>
+              <div>
+                <h1>Te ayudamos a que pases una noche increible en nuestras fabulosas habitaciones</h1>
               </div>
             </div>
         );
