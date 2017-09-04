@@ -3,6 +3,8 @@ import About from './About';
 import Home from './Home';
 import Counter from './Counter';
 import User from './User';
+import Rooms from './Rooms';
+
 
 const routes = [
     {
@@ -30,6 +32,11 @@ const routes = [
         path: '/users',
         sidebar: () => <div>User!</div>,
         main: User
+    },
+    {
+        path: '/rooms',
+        sidebar: () => <div>Rooms!</div>,
+        main: Rooms
     }
     
 ]
