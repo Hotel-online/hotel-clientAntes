@@ -4,6 +4,7 @@ import Home from './Home';
 import Counter from './Counter';
 import User from './User';
 import Rooms from './Rooms';
+import Registro from './Registro';
 
 
 const routes = [
@@ -37,7 +38,13 @@ const routes = [
         path: '/rooms',
         sidebar: () => <div>Rooms!</div>,
         main: Rooms
+    },
+    {
+        path: '/registro',
+        sidebar: () => <div>Registro!</div>,
+        main: Registro
     }
+    
     
 ]
 
