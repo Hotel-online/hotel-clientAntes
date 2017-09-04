@@ -4,6 +4,8 @@ import Home from './Home';
 import Counter from './Counter';
 import User from './User';
 import Rooms from './Rooms';
+import Registro from './Registro';
+import roomList from './roomList';
 
 
 const routes = [
@@ -37,8 +39,19 @@ const routes = [
         path: '/rooms',
         sidebar: () => <div>Rooms!</div>,
         main: Rooms
+    },
+    {
+        path: '/registro',
+        sidebar: () => <div>Registro!</div>,
+        main: Registro
+    },
+    {
+        path: '/roomList',
+        sidebar: () => <div>roomList!</div>,
+        main: roomList
     }
-    
+
+
 ]
 
 export default routes
