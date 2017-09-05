@@ -1,3 +1,11 @@
+.tn{
+  background: black;
+  border: none;
+  padding: 27px 44px;
+  color: white;
+  font-size: 19px;
+  border-radius: 4px;
+}
 .imgbackground{
   background-image: url("./images/hotel.jpg");
   background-repeat: no-repeat;
@@ -15,9 +23,11 @@
   background: black;
   color: white;
   padding: 17px 27px;
-  border: none;
+  border: 3px solid white;
   border-radius: 4px;
   font-size: 22px;
+  margin-bottom: 12px;
+  width: 213px;
 }
 .portada h1{
   background: rgba(115, 112, 112,0.4);
@@ -41,4 +51,12 @@ body{
   text-align: center;
   font-size: 23px;
   margin-left: 88px;
+}
+.form{
+  background: black;
+  width: 297px;
+  height: 260px;
+  text-align: center;
+  border-radius: 8px;
+  padding-top: 54px;
 }
