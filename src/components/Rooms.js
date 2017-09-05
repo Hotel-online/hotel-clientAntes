@@ -1,29 +1,21 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types'
-import { CardContent } from 'material-ui/Card';
-import Typography from 'material-ui/Typography';
+import PropTypes from 'prop-types';
 import { withStyles } from 'material-ui/styles';
-import { GridList, GridListTile, GridListTileBar } from 'material-ui/GridList';
-import Subheader from 'material-ui/List/ListSubheader';
-import IconButton from 'material-ui/IconButton';
-
+import Card, { CardActions, CardContent, CardMedia } from 'material-ui/Card';
+import Button from 'material-ui/Button';
+import Typography from 'material-ui/Typography';
 
 import { connect } from 'react-redux'
 import {  loadRooms } from '../actions/roomsAction';
 
-const styles = theme => ({
-    container: {
-        display: 'flex',
-        flexWrap: 'wrap',
-        justifyContent: 'space-around',
-        overflow: 'hidden',
-        background: theme.palette.background.paper,
-    },
-    gridList: {
-        width: 500,
-        height: 450,
-    },
-});
+const styles = {
+  card: {
+    maxWidth: 345,
+  },
+  media: {
+    height: 200,
+  },
+};  
 
 class Rooms extends Component {
     componentWillMount() {
@@ -37,14 +29,31 @@ class Rooms extends Component {
 
         return (
 
-            <CardContent>
-                <Typography type="headline">
-                    Habitaciones
-                </Typography>
-
-                
-
-            </CardContent>
+            <div>
+      <Card className={classes.card}>
+        <CardMedia
+          className={classes.media}
+          image="/static/images/cards/contemplative-reptile.jpg"
+          title="Contemplative Reptile"
+        />
+        <CardContent>
+          <Typography type="headline" component="h2">
+            Habitacion Clasica
+          </Typography>
+          <Typography component="p">
+            Precios
+          </Typography>
+        </CardContent>
+        <CardActions>
+          <Button dense color="primary">
+            Share
+          </Button>
+          <Button dense color="primary">
+            Learn More
+          </Button>
+        </CardActions>
+      </Card>
+    </div>
         );
     }
 }
