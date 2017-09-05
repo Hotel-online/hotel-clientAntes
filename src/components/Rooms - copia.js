@@ -22,9 +22,7 @@ const styles = theme => ({
     },
     gridList: {
         width: 900,
-        margin: 10,
-        padding: 10,
-        height: 500,
+        height: 900,
     },
 });
 
@@ -53,6 +51,15 @@ class ProductList extends Component {
                             <img src={d.image} alt={d.name} />
                             <GridListTileBar
                                 title={d.name}
+                                actionIcon={
+                                    <IconButton >
+                                        <AddShoppingCartIcon color="rgba(255, 255, 255, 0.54)" />
+                                    </IconButton>
+                                }
+
+                                
+
+
                             />
                         </GridListTile>
                     ))}
