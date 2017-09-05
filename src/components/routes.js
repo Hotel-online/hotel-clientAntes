@@ -1,7 +1,6 @@
 import React from 'react'
 import About from './About';
 import Home from './Home';
-import Counter from './Counter';
 import User from './User';
 import Rooms from './Rooms';
 import Registro from './Registro';
@@ -19,16 +18,6 @@ const routes = [
         path: '/abouts',
         sidebar: () => <div>abouts!</div>,
         main: About
-    },
-    {
-        path: '/one',
-        sidebar: () => <div>one!</div>,
-        main: () => <h2>One</h2>
-    },
-    {
-        path: '/counters',
-        sidebar: () => <div>Counter!</div>,
-        main: Counter
     },
     {
         path: '/users',
