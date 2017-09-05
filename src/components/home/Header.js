@@ -11,7 +11,7 @@ class Header extends Component {
     render() {
         return (
             <div>
-                Logo
+                Logo 
                 </div>
         );
     }
