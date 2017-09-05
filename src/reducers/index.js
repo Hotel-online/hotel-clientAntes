@@ -2,7 +2,7 @@ import {combineReducers} from 'redux'
 
 import counterReducer from './counterReducer'
 import user from './userReducer'
-import ecomm from './ecommReducer'
+import ecomm from './roomsReducer'
 
 
 var reducers = combineReducers({

@@ -1,4 +1,4 @@
-import { REPLACE_PRODUCTS} from '../actions/ecommAction'
+import { REPLACE_PRODUCTS} from '../actions/roomsAction'
 
 const initialState = {
 	products: [],

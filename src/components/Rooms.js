@@ -10,7 +10,7 @@ import AddShoppingCartIcon from 'material-ui-icons/AddShoppingCart';
 
 
 import { connect } from 'react-redux'
-import { loadProducts } from '../actions/ecommAction';
+import { loadProducts } from '../actions/roomsAction';
 
 const styles = theme => ({
     container: {
@@ -21,8 +21,8 @@ const styles = theme => ({
         background: theme.palette.background.paper,
     },
     gridList: {
-        width: 500,
-        height: 450,
+        width: 900,
+        height: 900,
     },
 });
 
