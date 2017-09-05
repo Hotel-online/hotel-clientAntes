@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "gh-pages": "^1.0.0",
+    "git-json-merge": "^0.4.4",
     "react-scripts": "1.0.12"
   },
   "scripts": {
