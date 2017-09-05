@@ -1,79 +1,92 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
-import { withStyles } from 'material-ui/styles';
-import Card, { CardActions, CardContent, CardMedia } from 'material-ui/Card';
-import Button from 'material-ui/Button';
+import PropTypes from 'prop-types'
+import { CardContent } from 'material-ui/Card';
 import Typography from 'material-ui/Typography';
+import { withStyles } from 'material-ui/styles';
+import { GridList, GridListTile, GridListTileBar } from 'material-ui/GridList';
+import Subheader from 'material-ui/List/ListSubheader';
+import IconButton from 'material-ui/IconButton';
+import AddShoppingCartIcon from 'material-ui-icons/AddShoppingCart';
+
 
 import { connect } from 'react-redux'
-import {  loadRooms } from '../actions/roomsAction';
+import { loadProducts } from '../actions/ecommAction';
 
-const styles = {
-  card: {
-    maxWidth: 345,
-  },
-  media: {
-    height: 200,
-  },
-};  
+const styles = theme => ({
+    container: {
+        display: 'flex',
+        flexWrap: 'wrap',
+        justifyContent: 'space-around',
+        overflow: 'hidden',
+        background: theme.palette.background.paper,
+    },
+    gridList: {
+        width: 500,
+        height: 450,
+    },
+});
 
-class Rooms extends Component {
+class ProductList extends Component {
     componentWillMount() {
-        this.props.loadRooms()
+        this.props.loadProducts()
     }
 
 
     render() {
-        const {rooms} = this.props
+        const { products} = this.props
         const classes = this.props.classes;
 
         return (
 
-            <div>
-      <Card className={classes.card}>
-        <CardMedia
-          className={classes.media}
-          image="/static/images/cards/contemplative-reptile.jpg"
-          title="Contemplative Reptile"
-        />
-        <CardContent>
-          <Typography type="headline" component="h2">
-            Habitacion Clasica
-          </Typography>
-          <Typography component="p">
-            Precios
-          </Typography>
-        </CardContent>
-        <CardActions>
-          <Button dense color="primary">
-            Share
-          </Button>
-          <Button dense color="primary">
-            Learn More
-          </Button>
-        </CardActions>
-      </Card>
-    </div>
+            <CardContent>
+                <Typography type="headline">
+                    Rooms List
+                </Typography>
+
+                <GridList cellHeight={180} className={classes.gridList}>
+                    <GridListTile key="Subheader" cols={2} style={{ height: 'auto' }}>
+                    </GridListTile>
+                    {products.map((d, index) => (
+                        <GridListTile key={d.image}>
+                            <img src={d.image} alt={d.name} />
+                            <GridListTileBar
+                                title={d.name}
+                                actionIcon={
+                                    <IconButton >
+                                        <AddShoppingCartIcon color="rgba(255, 255, 255, 0.54)" />
+                                    </IconButton>
+                                }
+
+                                
+
+
+                            />
+                        </GridListTile>
+                    ))}
+                </GridList>
+
+            </CardContent>
         );
     }
 }
-Rooms.propTypes = {
+ProductList.propTypes = {
     classes: PropTypes.object.isRequired,
-    rooms: PropTypes.array
+    products: PropTypes.array
 }
 
 function mapStateToProps(state) {
     return {
-        rooms: state.rooms
+        products: state.ecomm.products
     }
 }
 
 function mapDispatchToProps(dispatch) {
     return {
-        loadRooms: () => {
-            dispatch(loadRooms());
+        
+        loadProducts: () => {
+            dispatch(loadProducts());
         }
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(withStyles(styles)(Rooms))
+export default connect(mapStateToProps, mapDispatchToProps)(withStyles(styles)(ProductList))
