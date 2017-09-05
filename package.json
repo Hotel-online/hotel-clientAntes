@@ -2,7 +2,7 @@
   "name": "ecomm-client",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://lp2-20172.github.io",
+  "homepage": "https://lp2-20172.github.io/hotel-client",
   "dependencies": {
     "axios": "^0.16.2",
     "material-ui": "^1.0.0-beta.8",
