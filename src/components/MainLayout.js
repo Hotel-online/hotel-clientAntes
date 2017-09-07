@@ -25,6 +25,7 @@ class MainLayout extends Component {
                         <ul style={{ listStyleType: 'none', padding: 0 }}>
                             <li><NavLink exact to="/header" activeClassName="selected">Header</NavLink></li>
                             <li><NavLink exact to="/" activeClassName="selected">Home</NavLink></li>
+                            <li><NavLink exact to="rooms" activeClassName="selected">Habitaciones</NavLink></li>
                             <li><NavLink exact to="/abouts" activeClassName="selected">abouts</NavLink></li>
                             <li><NavLink exact to="/one" activeClassName="selected">one</NavLink></li>
                             <li><NavLink exact to="/counters" activeClassName="selected">Counter</NavLink></li>

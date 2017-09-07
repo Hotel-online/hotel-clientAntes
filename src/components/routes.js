@@ -5,6 +5,7 @@ import Counter from './Counter';
 import User from './User';
 import Header from './home/Header';
 import Footer from './home/Footer';
+import Rooms from './hotel/Rooms';
 
 const routes = [
     {
@@ -37,12 +38,16 @@ const routes = [
         path: '/header',
         sidebar: () => <div>Header!</div>,
         main: Header
-    }
-    ,
+    },
     {
         path: '/footer',
         sidebar: () => <div>Footer!</div>,
         main: Footer
+    },
+    {
+        path: '/rooms',
+        sidebar: () => <div>Rooms!</div>,
+        main: Rooms
     }
     
 ]
