@@ -20,15 +20,11 @@ class MainLayout extends Component {
                         <Header/>
                     </nav>
                         
-                        {routes.map((route, index) => (
-                            <Route
-                                key={index}
-                                path={route.path}
-                                exact={route.exact}
-                                component={route.sidebar}
-                            />
-                        ))}
-
+                        
+                    <br/>
+                    <br/>
+                    <br/>
+                    <br/>
                     <div >
 
                         <Switch>
