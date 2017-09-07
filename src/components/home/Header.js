@@ -7,11 +7,12 @@ import {
 
 } from 'react-router-dom'
 import routes from '../routes'
+import './Header.css';
 
 class Header extends Component {
     render() {
         return (
-            <div className="Footer">
+            <nav>
                 <ul>
                     <li><NavLink exact to="/" activeClassName="selected">Home</NavLink></li>
                     <li><NavLink exact to="rooms" activeClassName="selected">Habitaciones</NavLink></li>
@@ -23,7 +24,7 @@ class Header extends Component {
                     <li><NavLink exact to="/footer" activeClassName="selected">Footer</NavLink></li>
 
                 </ul>
-            </div>
+            </nav>
         );
     }
 }

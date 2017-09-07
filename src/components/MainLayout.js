@@ -14,9 +14,12 @@ class MainLayout extends Component {
     render() {
         return (
 
+                
                 <div>
-                    
+                    <nav>
                         <Header/>
+                    </nav>
+                        
                         {routes.map((route, index) => (
                             <Route
                                 key={index}
