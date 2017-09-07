@@ -6,6 +6,7 @@ import User from './User';
 import Header from './home/Header';
 import Footer from './home/Footer';
 import Rooms from './hotel/Rooms';
+import Photos from './hotel/Photos';
 
 const routes = [
     {
@@ -48,6 +49,11 @@ const routes = [
         path: '/rooms',
         sidebar: () => <div>Rooms!</div>,
         main: Rooms
+    },
+    {
+        path: '/photos',
+        sidebar: () => <div>Photos!</div>,
+        main: Photos
     }
     
 ]

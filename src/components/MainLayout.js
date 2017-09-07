@@ -14,18 +14,13 @@ class MainLayout extends Component {
     render() {
         return (
 
-            
-                <div style={{ display: 'flex' }}>
-                    <div style={{
-                        padding: '10px',
-                        height: '100%',
-                        width: '20%',
-                        background: '#f0f0f0'
-                    }}>
-                        <ul style={{ listStyleType: 'none', padding: 0 }}>
+                <div>
+                    
+                        <ul>
                             <li><NavLink exact to="/header" activeClassName="selected">Header</NavLink></li>
                             <li><NavLink exact to="/" activeClassName="selected">Home</NavLink></li>
                             <li><NavLink exact to="rooms" activeClassName="selected">Habitaciones</NavLink></li>
+                            <li><NavLink exact to="photos" activeClassName="selected">Fotos</NavLink></li>
                             <li><NavLink exact to="/abouts" activeClassName="selected">abouts</NavLink></li>
                             <li><NavLink exact to="/one" activeClassName="selected">one</NavLink></li>
                             <li><NavLink exact to="/counters" activeClassName="selected">Counter</NavLink></li>
@@ -41,7 +36,6 @@ class MainLayout extends Component {
                                 component={route.sidebar}
                             />
                         ))}
-                    </div>
 
                     <div style={{ flex: 1, padding: '10px' }}>
 
