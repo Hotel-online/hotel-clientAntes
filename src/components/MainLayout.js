@@ -7,8 +7,8 @@ import {
 
 } from 'react-router-dom'
 import routes from './routes'
+import Header from './home/Header';
 
-import '../App.css';
 
 class MainLayout extends Component {
     render() {
@@ -16,18 +16,7 @@ class MainLayout extends Component {
 
                 <div>
                     
-                        <ul>
-                            <li><NavLink exact to="/header" activeClassName="selected">Header</NavLink></li>
-                            <li><NavLink exact to="/" activeClassName="selected">Home</NavLink></li>
-                            <li><NavLink exact to="rooms" activeClassName="selected">Habitaciones</NavLink></li>
-                            <li><NavLink exact to="photos" activeClassName="selected">Fotos</NavLink></li>
-                            <li><NavLink exact to="/abouts" activeClassName="selected">abouts</NavLink></li>
-                            <li><NavLink exact to="/one" activeClassName="selected">one</NavLink></li>
-                            <li><NavLink exact to="/counters" activeClassName="selected">Counter</NavLink></li>
-                            <li><NavLink exact to="/users" activeClassName="selected">users</NavLink></li>
-                            <li><NavLink exact to="/footer" activeClassName="selected">Footer</NavLink></li>
-                            
-                        </ul>
+                        <Header/>
                         {routes.map((route, index) => (
                             <Route
                                 key={index}
@@ -37,7 +26,7 @@ class MainLayout extends Component {
                             />
                         ))}
 
-                    <div style={{ flex: 1, padding: '10px' }}>
+                    <div >
 
                         <Switch>
                             {routes.map((route, index) => (

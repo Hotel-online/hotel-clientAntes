@@ -3,7 +3,6 @@ import About from './About';
 import Home from './Home';
 import Counter from './Counter';
 import User from './User';
-import Header from './home/Header';
 import Footer from './home/Footer';
 import Rooms from './hotel/Rooms';
 import Photos from './hotel/Photos';
@@ -34,11 +33,6 @@ const routes = [
         path: '/users',
         sidebar: () => <div>User!</div>,
         main: User
-    },
-    {
-        path: '/header',
-        sidebar: () => <div>Header!</div>,
-        main: Header
     },
     {
         path: '/footer',
