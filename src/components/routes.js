@@ -3,7 +3,8 @@ import About from './About';
 import Home from './Home';
 import Counter from './Counter';
 import User from './User';
-import Header from './home/Header'
+import Header from './home/Header';
+import Footer from './home/Footer';
 
 const routes = [
     {
@@ -36,6 +37,12 @@ const routes = [
         path: '/header',
         sidebar: () => <div>Header!</div>,
         main: Header
+    }
+    ,
+    {
+        path: '/footer',
+        sidebar: () => <div>Footer!</div>,
+        main: Footer
     }
     
 ]

@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import Footer from './home/Footer';
 import Hom from './home/Hom';
 
 class Home extends Component {
@@ -22,7 +21,6 @@ class Home extends Component {
                 <div className="Content">
                     <input type="text" onChange={this.handleClick} />
                 </div>
-                <Footer />
             </div>
         );
     }

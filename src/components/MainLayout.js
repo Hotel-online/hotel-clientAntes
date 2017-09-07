@@ -29,6 +29,7 @@ class MainLayout extends Component {
                             <li><NavLink exact to="/one" activeClassName="selected">one</NavLink></li>
                             <li><NavLink exact to="/counters" activeClassName="selected">Counter</NavLink></li>
                             <li><NavLink exact to="/users" activeClassName="selected">users</NavLink></li>
+                            <li><NavLink exact to="/footer" activeClassName="selected">Footer</NavLink></li>
                             
                         </ul>
                         {routes.map((route, index) => (
