@@ -47,16 +47,6 @@ class MainLayout extends Component {
 
 export default MainLayout;
 
-
-
-const OldSchoolMenuLink = ({ label, to, activeOnlyWhenExact }) => (
-    <Route path={to} exact={activeOnlyWhenExact} children={({ match }) => (
-        <div className={match ? 'active' : ''}>
-            {match ? '> ' : ''}<Link to={to}>{label}</Link>
-        </div>
-    )} />
-)
-
 const NoMatch = ({ location }) => (
     <div>
         <h3>No se encontró la página <code>{location.pathname}</code></h3>

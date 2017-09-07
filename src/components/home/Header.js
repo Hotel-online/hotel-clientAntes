@@ -6,7 +6,6 @@ import {
     NavLink
 
 } from 'react-router-dom'
-import routes from '../routes'
 import './Header.css';
 
 class Header extends Component {
