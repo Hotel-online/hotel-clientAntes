@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Footer from './home/Footer';
-import Header from './home/Header';
+import Hom from './home/Hom';
 
 class Home extends Component {
     constructor(props) {
@@ -18,7 +18,7 @@ class Home extends Component {
     render() {
         return (
             <div className="Home">
-                <Header title={this.state.title} />
+                <Hom title={this.state.title} />
                 <div className="Content">
                     <input type="text" onChange={this.handleClick} />
                 </div>

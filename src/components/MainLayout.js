@@ -23,17 +23,14 @@ class MainLayout extends Component {
                         background: '#f0f0f0'
                     }}>
                         <ul style={{ listStyleType: 'none', padding: 0 }}>
+                            <li><NavLink exact to="/header" activeClassName="selected">Header</NavLink></li>
                             <li><NavLink exact to="/" activeClassName="selected">Home</NavLink></li>
                             <li><NavLink exact to="/abouts" activeClassName="selected">abouts</NavLink></li>
                             <li><NavLink exact to="/one" activeClassName="selected">one</NavLink></li>
                             <li><NavLink exact to="/counters" activeClassName="selected">Counter</NavLink></li>
                             <li><NavLink exact to="/users" activeClassName="selected">users</NavLink></li>
+                            
                         </ul>
-                        <OldSchoolMenuLink activeOnlyWhenExact={true} to="/" label="Home" />
-                        <OldSchoolMenuLink to="/abouts" label="About" />
-                        <OldSchoolMenuLink to="/one" label="one" />
-                        <OldSchoolMenuLink to="/two" label="two" />
-
                         {routes.map((route, index) => (
                             <Route
                                 key={index}

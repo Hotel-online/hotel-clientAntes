@@ -1,13 +1,13 @@
 import React, { Component } from 'react';
 
-class Header extends Component {
+class Hom extends Component {
     render() {
         return (
             <div className="Footer">
-                hola soy Header y soy facillll   trabajeme aqui 
+                <h1>Hello, {this.props.title}</h1>
             </div>
         );
     }
 }
 
-export default Header;
+export default Hom;
