@@ -8,6 +8,7 @@ import {
 } from 'react-router-dom'
 import routes from './routes'
 import Header from './home/Header';
+import Footer from './home/Footer'
 import './style.css'
 
 
@@ -38,6 +39,9 @@ class MainLayout extends Component {
                             <Route component={NoMatch} />
                         </Switch>
                     </div>
+                    <footer>
+                        <Footer/>
+                    </footer>
                 </div>
 
         )
