@@ -37,3 +37,15 @@ footer{
   width: 213px;
 
 }
+@media screen and (max-width:1199px){
+
+  /*/Aca para las laptops/*/
+
+}
+@media screen and (max-width:767px){
+  /*/Aca para las tablets/*/
+}
+@media screen and (max-width: 480px) {
+  /*/Aca para los moviles/*/
+
+}
