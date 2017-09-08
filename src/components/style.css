@@ -23,7 +23,7 @@ header{
 }
 footer{
   background: black;
-  position: fixed;
+
   bottom: 0;
   width: 100%;
   color: white;
@@ -36,6 +36,19 @@ footer{
 .footer_seccion{
   width: 213px;
 
+}
+.imgbackground{
+  background-image: url("./images/hotel.jpg");
+  background-repeat: no-repeat;
+  width: 100%;
+  height: -webkit-fill-available;
+
+}
+.portada{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
 }
 @media screen and (max-width:1199px){
 

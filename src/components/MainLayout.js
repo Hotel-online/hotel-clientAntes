@@ -19,12 +19,6 @@ class MainLayout extends Component {
                     <header>
                         <Header/>
                     </header>
-
-
-                    <br/>
-                    <br/>
-                    <br/>
-                    <br/>
                     <div >
 
                         <Switch>
