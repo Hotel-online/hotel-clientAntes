@@ -1,13 +1,19 @@
+.main{
+  padding-top: 20px;
+}
 .main li{
   display: inline-block;
   color: white;
-  margin-right: 23px;
+  margin-right: 118px;
 }
 a{
   text-decoration: none;
 }
 .main li a{
   color: white;
+}
+.main li a:hover{
+  color: #A0E01A;
 }
 header{
   display: flex;
