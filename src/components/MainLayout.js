@@ -8,19 +8,18 @@ import {
 } from 'react-router-dom'
 import routes from './routes'
 import Header from './home/Header';
+import './style.css'
 
 
 class MainLayout extends Component {
     render() {
         return (
-
-                
                 <div>
-                    <nav>
+                    <header>
                         <Header/>
-                    </nav>
-                        
-                        
+                    </header>
+
+
                     <br/>
                     <br/>
                     <br/>
@@ -40,7 +39,7 @@ class MainLayout extends Component {
                         </Switch>
                     </div>
                 </div>
-           
+
         )
     }
 }

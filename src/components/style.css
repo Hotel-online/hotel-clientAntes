@@ -1,1 +1,17 @@
-
+.main li{
+  display: inline-block;
+  color: white;
+  margin-right: 23px;
+}
+a{
+  text-decoration: none;
+}
+.main li a{
+  color: white;
+}
+header{
+  display: flex;
+  justify-content: center;
+  height: 92px;
+  background: black;
+}

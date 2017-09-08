@@ -11,13 +11,14 @@ import '../style.css';
 class Header extends Component {
     render() {
         return (
-            <nav>
+            <nav className="main">
                 <ul>
-                    <li><NavLink exact to="/" activeClassName="selected">Inicio</NavLink></li>
-                    <li><NavLink exact to="rooms" activeClassName="selected">Habitaciones</NavLink></li>
-                    <li><NavLink exact to="photos" activeClassName="selected">Fotos</NavLink></li>
+                    <li><NavLink exact to="/" activeClassName="selected">INICIO</NavLink></li>
+                    <li><NavLink exact to="rooms" activeClassName="selected">HABITACIONES</NavLink></li>
+                    <li><NavLink exact to="photos" activeClassName="selected">FOTOS</NavLink></li>
                 </ul>
             </nav>
+
         );
     }
 }
