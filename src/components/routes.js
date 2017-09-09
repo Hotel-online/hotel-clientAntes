@@ -1,8 +1,6 @@
 import React from 'react'
 import Form from './hotel/Form';
 import Home from './Home';
-import Counter from './Counter';
-import User from './User';
 import Footer from './home/Footer';
 import Rooms from './hotel/Rooms';
 import Photos from './hotel/Photos';
@@ -24,16 +22,6 @@ const routes = [
         path: '/one',
         sidebar: () => <div>one!</div>,
         main: () => <h2>One</h2>
-    },
-    {
-        path: '/counters',
-        sidebar: () => <div>Counter!</div>,
-        main: Counter
-    },
-    {
-        path: '/users',
-        sidebar: () => <div>User!</div>,
-        main: User
     },
     {
         path: '/footer',
