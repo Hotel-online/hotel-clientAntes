@@ -34,7 +34,6 @@ class MainLayout extends Component {
                         </Switch>
                     </div>
                     <footer>
-                        
                     </footer>
                 </div>
 
