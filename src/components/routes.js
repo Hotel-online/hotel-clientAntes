@@ -1,10 +1,10 @@
 import React from 'react'
-import Form from './hotel/Form';
+import Form from './Form';
 import Home from './Home';
 import Footer from './home/Footer';
-import Rooms from './hotel/Rooms';
-import Photos from './hotel/Photos';
-import Information from './hotel/Information';
+import Rooms from './Rooms';
+import Photos from './Photos';
+import Information from './Information';
 
 const routes = [
     {

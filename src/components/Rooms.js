@@ -1,9 +1,10 @@
 import React, { Component } from 'react';
-import "./rooms.css"
+import "./style.css"
 
 class Rooms extends Component {
     render() {
         return (
+            <div className="imgbackground portada" >
             <div className="card">
                 <section className="container">
                     <ul className="property-container">
@@ -111,6 +112,7 @@ class Rooms extends Component {
                         </li>
                     </ul>
                 </section>
+            </div>
             </div>
         );
     }

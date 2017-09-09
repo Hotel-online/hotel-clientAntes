@@ -14,7 +14,9 @@ class Home extends Component {
           <div className="imgbackground portada" >
           <NavLink exact to="/rooms" activeClassName="selected"><input className="btn" type="submit" name="" value="RESERVE SU CUARTO"/></NavLink>
             <h1>Reserve su cuarto facil y rapido</h1>
+            
           </div>
+          
         );
     }
 }
