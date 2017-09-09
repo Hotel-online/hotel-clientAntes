@@ -1,22 +1,15 @@
 import React, { Component } from 'react';
+import "./rooms.css"
 
 class Rooms extends Component {
     render() {
         return (
-            <div class="card">
-            <header class="card__thumb">
-                <a href="#">
-                <img src="" alt=""/>
-                </a>
-            </header>
-            <div class="card__body">
-                <div class="card__category"><a href="#">Photos</a></div>
-                <h2 class="card__title"><a href="#">Reservar</a></h2>
-                <div class="card__subtitle">Habitacione Doble</div>
-                <p class="card__description">
-                Mas Informacion
-                </p>
-            </div>
+            <div className="card">
+                <img src="https://www.hotelsaratoga.com/.imaging/stk/hTtGeneric/bootstrapGalleryImageBig/dms/monoHotel-Hotel-Saratoga/habitaciones/Suite/habitacion-suite-cama/document/habitacion-suite-cama.jpg" />
+                <div class="container">
+                    <h4><b>habitaciones</b></h4>
+                    <p>Mas Informacion</p>
+                </div>
             </div>
         );
     }
