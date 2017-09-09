@@ -1,5 +1,5 @@
 import React from 'react'
-import About from './About';
+import About from './hotel/About';
 import Home from './Home';
 import Counter from './Counter';
 import User from './User';
