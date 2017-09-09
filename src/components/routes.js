@@ -1,5 +1,5 @@
 import React from 'react'
-import About from './hotel/About';
+import Form from './hotel/Form';
 import Home from './Home';
 import Counter from './Counter';
 import User from './User';
@@ -15,9 +15,9 @@ const routes = [
         main: Home
     },
     {
-        path: '/abouts',
-        sidebar: () => <div>abouts!</div>,
-        main: About
+        path: '/forms',
+        sidebar: () => <div>Form!</div>,
+        main: Form
     },
     {
         path: '/one',
