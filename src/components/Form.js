@@ -12,7 +12,7 @@ class Form extends Component {
                   <input className="form2" type="date"  name="bday" min="2000-01-02"></input>
                   <input className="form2" type="date"  name="bday" min="2000-01-02"></input>
                   <input className="form2" type="email" placeholder="E-mail"></input>
-                  <input className="form2 btn"  type="button" name="aceptar" value="Aceptar"/>
+                  <input className="form2btn"  type="button" name="aceptar" value="Aceptar"/>
               </div>
 
             </div>
