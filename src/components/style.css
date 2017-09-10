@@ -30,9 +30,12 @@ header{
   height: 92px;
   background: black;
 }
+.fa-2x{
+  opacity: 0.0;
+}
 footer{
   background: black;
-
+  margin-top: 20px;
   bottom: 0;
   width: 100%;
   color: white;
@@ -130,7 +133,6 @@ footer{
 .btn:hover{
   background: #A0E01A;
   cursor: pointer;
-  background: #A0E01A;
   cursor: pointer;
   color: white;
   font-size: 18px;
@@ -142,8 +144,25 @@ footer{
 }
 @media screen and (max-width:767px){
   /*/Aca para las tablets/*/
+  .fa-2x{
+    opacity: 0.9;
+    color: #A0E01A;
+    cursor: pointer;
+    margin-left: 131px;
+    padding-top: 17px;
+  }
+  .main ul{
+   display: none;
+  }
 }
 @media screen and (max-width: 480px) {
   /*/Aca para los moviles/*/
-
+  .text{
+        margin-top: 128px;
+  }
+  .footer{
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
 }

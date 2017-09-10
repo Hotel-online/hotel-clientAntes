@@ -7,6 +7,7 @@ import {
 
 } from 'react-router-dom'
 import '../style.css';
+import '../images/font-awesome/css/font-awesome.min.css'
 
 class Header extends Component {
     render() {
@@ -19,6 +20,9 @@ class Header extends Component {
                     <li><NavLink exact to="rooms" activeClassName="selected">HABITACIONES</NavLink></li>
                     <li><NavLink exact to="photos" activeClassName="selected">FOTOS</NavLink></li>
                 </ul>
+                <span>
+                  <i className="fa fa-bars fa-2x " aria-hidden="true"></i>
+                </span>
             </nav>
 
         );
