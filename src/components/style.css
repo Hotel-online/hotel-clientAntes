@@ -124,9 +124,16 @@ footer{
   width: 536px;
   text-align: center;
 }
+.btn{
+  transition: 0.2s;
+}
 .btn:hover{
   background: #A0E01A;
   cursor: pointer;
+  background: #A0E01A;
+  cursor: pointer;
+  color: white;
+  font-size: 18px;
 }
 @media screen and (max-width:1199px){
 
