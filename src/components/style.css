@@ -1,5 +1,13 @@
+.imglogo{
+  background-image: url("./images/logo.png");
+  width: 168px;
+  height: 102px;
+  background-repeat: no-repeat;
+  background-size: 72%;
+}
 .main{
   padding-top: 20px;
+  display: flex;
 }
 .main li{
   display: inline-block;
@@ -13,7 +21,8 @@ a{
   color: white;
 }
 .main li a:hover{
-  color: #A0E01A;
+  border-bottom: 3px solid #A0E01A;
+  padding-bottom: 3px;
 }
 header{
   display: flex;
@@ -93,7 +102,8 @@ footer{
   -webkit-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.75);
   -moz-box-shadow: 0px 0px 4px 1px rgba(0,0,0,0.75);
   box-shadow: 0px 2px 13px 1px rgba(0,0,0,0.75);
-  color: black
+  color: black;
+  font-size: 15px;
 }
 .formulario{
   position: absolute;
@@ -113,6 +123,10 @@ footer{
   font-size: 41px;
   width: 536px;
   text-align: center;
+}
+.btn:hover{
+  background: #A0E01A;
+  cursor: pointer;
 }
 @media screen and (max-width:1199px){
 

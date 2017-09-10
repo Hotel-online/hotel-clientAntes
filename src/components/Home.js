@@ -24,7 +24,7 @@ class Home extends Component {
                 <option value="Matrimonial">Matrimonial</option>
                 <option value="Triple">Triple</option>
               </select>
-              <NavLink exact to="/rooms"  activeClassName="selected"><input className="form"  type="submit" name="" value="RESERVAR"/></NavLink>
+              <NavLink exact to="/rooms"  activeClassName="selected"><input className="form btn"  type="submit" name="" value="Reservar"/></NavLink>
 
             </div>
             <div className="text">

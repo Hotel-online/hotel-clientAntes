@@ -12,6 +12,8 @@ class Header extends Component {
     render() {
         return (
             <nav className="main">
+                <div className="imglogo">
+                </div>
                 <ul>
                     <li><NavLink exact to="/" activeClassName="selected">INICIO</NavLink></li>
                     <li><NavLink exact to="rooms" activeClassName="selected">HABITACIONES</NavLink></li>
