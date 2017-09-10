@@ -140,7 +140,13 @@ footer{
 @media screen and (max-width:1199px){
 
   /*/Aca para las laptops/*/
-
+  .contenedor_habitacion{
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .contenedor{
+    width: 100%;
+  }
 }
 @media screen and (max-width:767px){
   /*/Aca para las tablets/*/
