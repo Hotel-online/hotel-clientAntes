@@ -82,6 +82,14 @@ footer{
 .info_color{
   color: #A0E01A;
 }
+.form{
+  width: 222px;
+  height: 43px;
+  border-radius: 5px;
+    border: none;
+    background: #D8D8D8;
+        margin-left: 19px;
+}
 @media screen and (max-width:1199px){
 
   /*/Aca para las laptops/*/

@@ -3,7 +3,7 @@ import "./style.css"
 class Rooms extends Component {
     render() {
         return (
-            <div className="contenedor_habitacion" >
+            <div className=" contenedor contenedor_habitacion" >
               <div  className="habitacion">
                   <div className="img">
                     <img src="./images/hotel.jpg" alt=""/>
@@ -142,7 +142,7 @@ class Rooms extends Component {
                   </div>
                 </div>
               </div>
-            
+
 
             </div>
         );
