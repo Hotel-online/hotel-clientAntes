@@ -74,6 +74,14 @@ footer{
   flex-wrap: wrap;
   justify-content: space-around;
 }
+.info_rooms{
+  background: black;
+  height: 107px;
+  color: white;
+}
+.info_color{
+  color: #A0E01A;
+}
 @media screen and (max-width:1199px){
 
   /*/Aca para las laptops/*/

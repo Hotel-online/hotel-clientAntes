@@ -8,7 +8,7 @@ class Rooms extends Component {
                   <div className="img">
                     <img src="./images/hotel.jpg" alt=""/>
                   </div>
-                <div>
+                <div className="info_rooms">
                   <div className="info">
                     <h3>
                       Habitacion doble
@@ -17,7 +17,7 @@ class Rooms extends Component {
                       S/ 50.00
                     </p>
                   </div>
-                  <div className="info">
+                  <div className="info info_color">
                     <h3>
                       Mas informacion
                     </h3>
@@ -31,7 +31,7 @@ class Rooms extends Component {
                   <div className="img">
                     <img src="./images/hotel.jpg" alt=""/>
                   </div>
-                <div>
+                <div className="info_rooms">
                   <div className="info">
                     <h3>
                       Habitacion doble
@@ -40,7 +40,7 @@ class Rooms extends Component {
                       S/ 50.00
                     </p>
                   </div>
-                  <div className="info">
+                  <div className="info info_color">
                     <h3>
                       Mas informacion
                     </h3>
@@ -54,7 +54,7 @@ class Rooms extends Component {
                   <div className="img">
                     <img src="./images/hotel.jpg" alt=""/>
                   </div>
-                <div>
+                <div className="info_rooms">
                   <div className="info">
                     <h3>
                       Habitacion doble
@@ -63,7 +63,7 @@ class Rooms extends Component {
                       S/ 50.00
                     </p>
                   </div>
-                  <div className="info">
+                  <div className="info info_color">
                     <h3>
                       Mas informacion
                     </h3>
@@ -77,7 +77,7 @@ class Rooms extends Component {
                   <div className="img">
                     <img src="./images/hotel.jpg" alt=""/>
                   </div>
-                <div>
+                <div className="info_rooms">
                   <div className="info">
                     <h3>
                       Habitacion doble
@@ -86,7 +86,7 @@ class Rooms extends Component {
                       S/ 50.00
                     </p>
                   </div>
-                  <div className="info">
+                  <div className="info info_color">
                     <h3>
                       Mas informacion
                     </h3>
@@ -100,7 +100,7 @@ class Rooms extends Component {
                   <div className="img">
                     <img src="./images/hotel.jpg" alt=""/>
                   </div>
-                <div>
+                <div className="info_rooms">
                   <div className="info">
                     <h3>
                       Habitacion doble
@@ -109,7 +109,7 @@ class Rooms extends Component {
                       S/ 50.00
                     </p>
                   </div>
-                  <div className="info">
+                  <div className="info info_color">
                     <h3>
                       Mas informacion
                     </h3>
@@ -119,6 +119,31 @@ class Rooms extends Component {
                   </div>
                 </div>
               </div>
+              <div  className="habitacion">
+                  <div className="img">
+                    <img src="./images/hotel.jpg" alt=""/>
+                  </div>
+                <div className="info_rooms">
+                  <div className="info">
+                    <h3>
+                      Habitacion doble
+                    </h3>
+                    <p>
+                      S/ 50.00
+                    </p>
+                  </div>
+                  <div className="info info_color">
+                    <h3>
+                      Mas informacion
+                    </h3>
+                    <p>
+                      Reservar
+                    </p>
+                  </div>
+                </div>
+              </div>
+            
+
             </div>
         );
     }
