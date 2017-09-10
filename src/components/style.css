@@ -66,6 +66,10 @@ footer{
   width: 375px;
   height: 280px;
 }
+.img img{
+  width: 101.5%;
+  height: 100%;
+}
 .habitacion{
   height: 386px;
     width: 380px;
