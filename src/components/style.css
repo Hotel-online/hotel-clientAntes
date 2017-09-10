@@ -50,6 +50,30 @@ footer{
   flex-direction: column;
   align-items: center;
 }
+.img{
+  width: 375px;
+  height: 280px;
+}
+.habitacion{
+  height: 386px;
+    width: 380px;
+    border: 2px solid black;
+    margin-top: 30px;
+}
+.info{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.contenedor{
+  width: 940px;
+  margin: 0 auto;
+}
+.contenedor_habitacion{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
 @media screen and (max-width:1199px){
 
   /*/Aca para las laptops/*/

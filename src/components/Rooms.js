@@ -1,118 +1,124 @@
 import React, { Component } from 'react';
 import "./style.css"
-
 class Rooms extends Component {
     render() {
         return (
-            <div className="imgbackground portada" >
-            <div className="card">
-                <section className="container">
-                    <ul className="property-container">
-                        <li className="property-boxes col-xs-6 col-md-4">
-                            <div className="prp-img">
-                                <img src="https://www.pioletspark.com/content/imgsxml/galerias/panel_habitaciones/6/tab-0016-pioletspark-doblepremium566.jpg" alt=""/>
-                                <div className="price"><span>20</span></div>   
-                            </div>
-                            <div className="prp-detail">
-                                <div className="title">
-                                    HABITACION SIMPLE
-                                </div>
-                                <div className="description">
-                                    Informacion
-                                    <a className="more-detail btn colored" >
-                                        Reservar
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                        <li className="property-boxes col-xs-6 col-md-4">
-                            <div className="prp-img">
-                                <img src="https://www.pioletspark.com/content/imgsxml/galerias/panel_habitaciones/6/tab-0016-pioletspark-doblepremium566.jpg" alt=""/>
-                                <div className="price"><span>20</span></div>   
-                            </div>
-                            <div className="prp-detail">
-                                <div className="title">
-                                    Habitacion Doble
-                                </div>
-                                <div className="description">
-                                    Informacion
-                                    <a className="more-detail btn colored" >
-                                        Reservar
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                        <li className="property-boxes col-xs-6 col-md-4">
-                            <div className="prp-img">
-                                <img src="https://www.pioletspark.com/content/imgsxml/galerias/panel_habitaciones/6/tab-0016-pioletspark-doblepremium566.jpg" alt=""/>
-                                <div className="price"><span>20</span></div>   
-                            </div>
-                            <div className="prp-detail">
-                                <div className="title">
-                                    Habitacion Doble
-                                </div>
-                                <div className="description">
-                                    Informacion
-                                    <a className="more-detail btn colored" >
-                                        Reservar
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                        <li className="property-boxes col-xs-6 col-md-4">
-                            <div className="prp-img">
-                                <img src="https://www.pioletspark.com/content/imgsxml/galerias/panel_habitaciones/6/tab-0016-pioletspark-doblepremium566.jpg" alt=""/>
-                                <div className="price"><span>20</span></div>   
-                            </div>
-                            <div className="prp-detail">
-                                <div className="title">
-                                    Habitacion Doble
-                                </div>
-                                <div className="description">
-                                    Informacion
-                                    <a className="more-detail btn colored" >
-                                        Reservar
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                        <li className="property-boxes col-xs-6 col-md-4">
-                            <div className="prp-img">
-                                <img src="https://www.pioletspark.com/content/imgsxml/galerias/panel_habitaciones/6/tab-0016-pioletspark-doblepremium566.jpg" alt=""/>
-                                <div className="price"><span>20</span></div>   
-                            </div>
-                            <div className="prp-detail">
-                                <div className="title">
-                                    Habitacion Doble
-                                </div>
-                                <div className="description">
-                                    Informacion
-                                    <a className="more-detail btn colored" >
-                                        Reservar
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                        <li className="property-boxes col-xs-6 col-md-4">
-                            <div className="prp-img">
-                                <img src="https://www.pioletspark.com/content/imgsxml/galerias/panel_habitaciones/6/tab-0016-pioletspark-doblepremium566.jpg" alt=""/>
-                                <div className="price"><span>20</span></div>   
-                            </div>
-                            <div className="prp-detail">
-                                <div className="title">
-                                    Habitacion Doble
-                                </div>
-                                <div className="description">
-                                    Informacion
-                                    <a className="more-detail btn colored" >
-                                        Reservar
-                                    </a>
-                                </div>
-                            </div>
-                        </li>
-                    </ul>
-                </section>
-            </div>
+            <div className="contenedor_habitacion" >
+              <div  className="habitacion">
+                  <div className="img">
+                    <img src="./images/hotel.jpg" alt=""/>
+                  </div>
+                <div>
+                  <div className="info">
+                    <h3>
+                      Habitacion doble
+                    </h3>
+                    <p>
+                      S/ 50.00
+                    </p>
+                  </div>
+                  <div className="info">
+                    <h3>
+                      Mas informacion
+                    </h3>
+                    <p>
+                      Reservar
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div  className="habitacion">
+                  <div className="img">
+                    <img src="./images/hotel.jpg" alt=""/>
+                  </div>
+                <div>
+                  <div className="info">
+                    <h3>
+                      Habitacion doble
+                    </h3>
+                    <p>
+                      S/ 50.00
+                    </p>
+                  </div>
+                  <div className="info">
+                    <h3>
+                      Mas informacion
+                    </h3>
+                    <p>
+                      Reservar
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div  className="habitacion">
+                  <div className="img">
+                    <img src="./images/hotel.jpg" alt=""/>
+                  </div>
+                <div>
+                  <div className="info">
+                    <h3>
+                      Habitacion doble
+                    </h3>
+                    <p>
+                      S/ 50.00
+                    </p>
+                  </div>
+                  <div className="info">
+                    <h3>
+                      Mas informacion
+                    </h3>
+                    <p>
+                      Reservar
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div  className="habitacion">
+                  <div className="img">
+                    <img src="./images/hotel.jpg" alt=""/>
+                  </div>
+                <div>
+                  <div className="info">
+                    <h3>
+                      Habitacion doble
+                    </h3>
+                    <p>
+                      S/ 50.00
+                    </p>
+                  </div>
+                  <div className="info">
+                    <h3>
+                      Mas informacion
+                    </h3>
+                    <p>
+                      Reservar
+                    </p>
+                  </div>
+                </div>
+              </div>
+              <div  className="habitacion">
+                  <div className="img">
+                    <img src="./images/hotel.jpg" alt=""/>
+                  </div>
+                <div>
+                  <div className="info">
+                    <h3>
+                      Habitacion doble
+                    </h3>
+                    <p>
+                      S/ 50.00
+                    </p>
+                  </div>
+                  <div className="info">
+                    <h3>
+                      Mas informacion
+                    </h3>
+                    <p>
+                      Reservar
+                    </p>
+                  </div>
+                </div>
+              </div>
             </div>
         );
     }

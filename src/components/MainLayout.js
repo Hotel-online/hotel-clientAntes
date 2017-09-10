@@ -19,7 +19,7 @@ class MainLayout extends Component {
                     <header>
                         <Header/>
                     </header>
-                    <div >
+                    <div className="contenedor">
 
                         <Switch>
                             {routes.map((route, index) => (
@@ -34,7 +34,7 @@ class MainLayout extends Component {
                         </Switch>
                     </div>
                     <footer>
-                        <Footer/>
+
                     </footer>
                 </div>
 
