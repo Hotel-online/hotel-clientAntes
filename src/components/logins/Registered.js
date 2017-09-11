@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import '../style.css';
 
 class Registered extends Component {
     render() {
         return (
-            <div className="Footer">
-                Hola soy Registered
-            </div>
+                     <div>
+hola
+          </div>
         );
     }
 }
