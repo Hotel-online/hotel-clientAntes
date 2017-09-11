@@ -1,7 +1,13 @@
 {
-  "main.css": "static/css/main.0c90d7ef.css",
-  "main.css.map": "static/css/main.0c90d7ef.css.map",
-  "main.js": "static/js/main.e872a686.js",
-  "main.js.map": "static/js/main.e872a686.js.map",
+  "main.css": "static/css/main.289612a1.css",
+  "main.css.map": "static/css/main.289612a1.css.map",
+  "main.js": "static/js/main.0210d810.js",
+  "main.js.map": "static/js/main.0210d810.js.map",
+  "static\\media\\1.jpg": "static/media/1.ea24e4ce.jpg",
+  "static\\media\\fontawesome-webfont.eot": "static/media/fontawesome-webfont.674f50d2.eot",
+  "static\\media\\fontawesome-webfont.svg?v=4.7.0": "static/media/fontawesome-webfont.acf3dcb7.svg",
+  "static\\media\\fontawesome-webfont.ttf?v=4.7.0": "static/media/fontawesome-webfont.b06871f2.ttf",
+  "static\\media\\fontawesome-webfont.woff2?v=4.7.0": "static/media/fontawesome-webfont.af7ae505.woff2",
+  "static\\media\\fontawesome-webfont.woff?v=4.7.0": "static/media/fontawesome-webfont.fee66e71.woff",
   "static\\media\\hotel.jpg": "static/media/hotel.e33c6919.jpg"
 }

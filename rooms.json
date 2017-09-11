@@ -2,6 +2,7 @@
   "rooms": [
     { "id": 1, "name": "Habitacion Clasica", "price": 299, "image": "http://www.i-habitaciones.com/Imagenes/habitacion-infantil-clasica.jpg" },
     { "id": 2, "name": "Habitacion Familiar", "price": 99, "image": "http://rossello-barcelona.eveniahotels.com/wp-content/uploads/2013/12/Family.jpg" },
-    { "id": 3, "name": "Habitacion Matrimonial", "price": 149, "image": "http://1.bp.blogspot.com/-uqZFbiOaviY/UABnsslBwFI/AAAAAAAACn8/s-brdBZNe88/s640/dormitorios-habitaciones-matrimoniales.jpg" }
+    { "id": 3, "name": "Habitacion Matrimonial", "price": 149, "image": "http://1.bp.blogspot.com/-uqZFbiOaviY/UABnsslBwFI/AAAAAAAACn8/s-brdBZNe88/s640/dormitorios-habitaciones-matrimoniales.jpg" },
+    { "id": 4, "name": "Habitacion Matrimonial", "price": 149, "image": "http://1.bp.blogspot.com/-uqZFbiOaviY/UABnsslBwFI/AAAAAAAACn8/s-brdBZNe88/s640/dormitorios-habitaciones-matrimoniales.jpg" }
   ]
 }
