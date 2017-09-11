@@ -5,6 +5,8 @@ import Footer from './home/Footer';
 import Rooms from './Rooms';
 import Photos from './Photos';
 import Information from './Information';
+import Login from './logins/Login';
+import Registered from './logins/Registered';
 
 const routes = [
     {
@@ -42,6 +44,16 @@ const routes = [
         path: '/informations',
         sidebar: () => <div>Information!</div>,
         main: Information
+    },
+    {
+        path: '/logins',
+        sidebar: () => <div>Login!</div>,
+        main: Login
+    },
+    {
+        path: '/registereds',
+        sidebar: () => <div>Registered!</div>,
+        main: Registered
     }
     
 ]
