@@ -26,10 +26,10 @@ class ProductList extends Component {
                         <div className="info_rooms">
                             <div className="info">
                                 <h3>
-                                    title={d.name}
+                                    {d.name}
                                 </h3>
                                 <p>
-                                    S/ 50.00
+                                   S/ {d.price}
                     </p>
                             </div>
                             <div className="info info_color">
