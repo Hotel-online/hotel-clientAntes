@@ -7,6 +7,8 @@ import Photos from './Photos';
 import Information from './Information';
 import Login from './logins/Login';
 import Registered from './logins/Registered';
+import Bienvenido from './logins/Bienvenido';
+import RecupPassword from './logins/RecupPassword';
 
 const routes = [
     {
@@ -54,8 +56,17 @@ const routes = [
         path: '/registereds',
         sidebar: () => <div>Registered!</div>,
         main: Registered
+    },
+    {
+        path: '/bienvenidos',
+        sidebar: () => <div>Bienvenido!</div>,
+        main: Bienvenido
+    }    ,
+    {
+        path: '/recuppasswords',
+        sidebar: () => <div>RecupPassword!</div>,
+        main: RecupPassword
     }
-    
 ]
 
 export default routes

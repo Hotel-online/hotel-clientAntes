@@ -4,7 +4,7 @@ class Information extends Component {
     render() {
         return (
             <div className="Footer">
-               Implementar Informacion 
+               Bienvenido User:
             </div>
         );
     }
