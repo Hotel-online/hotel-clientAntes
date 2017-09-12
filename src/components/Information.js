@@ -1,4 +1,11 @@
 import React, { Component } from 'react';
+import {
+    Switch,
+    Route,
+    Link,
+    NavLink
+}from 'react-router-dom'
+
 import "./style.css"
 class Information extends Component {
     render() {
@@ -17,7 +24,7 @@ class Information extends Component {
                              S/50.soles
                            </p>
                            <p>
-                              Reservar
+                              <NavLink exact to="/forms"  activeClassName="selected">Reservar</NavLink>
                            </p>
                         </div>
                    </div>
