@@ -13,7 +13,7 @@ class Information extends Component {
             <div >
                <div className="habitacion habitacion_info" >
                     <div className="img img_info">
-                       <img  />
+                       <img  src="http://rossello-barcelona.eveniahotels.com/wp-content/uploads/2013/12/Family.jpg"/>
                     </div>
                     <div className="info_rooms">
                         <div className="info info_reserva">
