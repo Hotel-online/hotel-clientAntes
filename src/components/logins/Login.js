@@ -18,8 +18,8 @@ class Login extends Component {
                     	<input className="form form_login" type="email" placeholder="E-mail"/>
                     	<label >Contraseña</label>
                   		<input className="form form_login" type="password" placeholder="Password"/>
-                  		<NavLink exact to="/bienvenidos"  activeClassName="selected"><input className=" form form_login"  type="submit" name="" value="Iniciar Sesión"/></NavLink>
-                      <NavLink exact to="/forms"  activeClassName="selected"><input className="form form_login"  type="submit" name="" value="Registrarse"/></NavLink>
+                  		<NavLink exact to="/bienvenidos"  activeClassName="selected"><input className=" form form_login btn"  type="submit" name="" value="Iniciar Sesión"/></NavLink>
+                      <NavLink exact to="/forms"  activeClassName="selected"><input className="form form_login btn"  type="submit" name="" value="Registrarse"/></NavLink>
                       <a className="bot_ol" href="/recuppasswords">¿Has olvidado tu Contraseña?</a>
 
                   		<a id="botonhref">Entrar con: <a href="www.facebook.com">Facebook</a>/  /<a href="www.google.com">Google</a></a>
