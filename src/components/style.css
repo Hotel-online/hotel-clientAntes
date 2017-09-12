@@ -7,8 +7,8 @@
   background-size: cover;
 }
 .cuerpoform{
-  position: absolute; 
-  left: 80px; 
+  position: absolute;
+  left: 80px;
   top: 20px;
   width: 350px;
   height: 380px;
@@ -17,7 +17,7 @@
   background-color:#00EBFF;
   position: relative;
   border-radius: 100px;
-  opacity: .7;  
+  opacity: .7;
   margin-left: 700px;
   margin-top: 100px;
   width: 500px;
@@ -39,7 +39,7 @@ input{
 }
 .form2{
   position: relative;
-  top: 15px;  
+  top: 15px;
   border-radius: 5px;
   border: none;
   background: #D8D8D8;
@@ -120,6 +120,7 @@ footer{
   background-repeat: no-repeat;
   width: 100%;
   height: -webkit-fill-available;
+  margin-bottom: -20px;
 
 }
 .portada{
@@ -252,7 +253,7 @@ footer{
 }
 #cuerpo1{
   margin: 4%;
-  
+
 }
 #cuerpo2{
   margin-top: 10%;
