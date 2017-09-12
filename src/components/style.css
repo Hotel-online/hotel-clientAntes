@@ -1,4 +1,17 @@
-
+.img_info{
+     height: 503px !important;
+    width: 740px !important;
+}
+.habitacion_info{
+     height: 610px !important;
+    width: 740px !important;
+      margin: 0 auto;
+    margin-top: 34px;
+}
+.info_reserva{
+padding-top: 27px;
+  
+}
 .cuerpoform{
   display: flex;
   flex-direction: column;

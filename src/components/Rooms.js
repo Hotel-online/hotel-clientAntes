@@ -39,7 +39,7 @@ class RoomList extends Component {
                                 </p>
                             </div>
                             <div className="info info_color">
-                                <NavLink exact to="/Informations"  activeClassName="selected"><h3>Mas informacion</h3></NavLink>
+                                <NavLink exact to="/Information.js"  activeClassName="selected"><h3>Mas informacion</h3></NavLink>
                                 <p>
                                     Reservar
                                 </p>
