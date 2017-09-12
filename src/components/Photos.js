@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class Photos extends Component {
     render() {
         return (
-          <div className="imgbackground portada">
+
             <div className="fotos">
                 <div>
                     <img className="f_hotel" src="https://media-cdn.tripadvisor.com/media/photo-s/0c/a9/79/c9/letrero-del-hotel.jpg" alt=""/>
@@ -33,7 +33,7 @@ class Photos extends Component {
                     <img className="f_hotel" src="http://www.bogotaplazahotel.com/foto/BogotaPlazaHotel_Habitacion_ejecutiva_nw_04.jpg" alt=""/>
                 </div>
             </div>
-          </div>
+        
         );
     }
 }
