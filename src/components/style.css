@@ -1,17 +1,5 @@
-.Cuerpo_Principal{
-  margin-top: -100px;
-  background-image: url("./images/1.jpg") ;
-  background-repeat:no-repeat center center fixed;
-  width: 100%;
-  height: 450px;
-  background-size: cover;
-}
+
 .cuerpoform{
-  position: absolute;
-  left: 80px;
-  top: 20px;
-  width: 350px;
-  height: 380px;
 }
 .formulario_lo{
   background-color:#00EBFF;
