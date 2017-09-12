@@ -120,7 +120,7 @@ footer{
   width: 280px;
   height: 190px;
   margin: 10px 10px;
-  border: 2px solid black;
+  border-radius: 1%;
 }
 .info{
   display: flex;
