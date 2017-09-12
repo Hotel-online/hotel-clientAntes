@@ -1,8 +1,8 @@
 import {combineReducers} from 'redux'
-import ecomm from './roomsReducer'
+import room from './roomsReducer'
 
 var reducers = combineReducers({
-   ecomm: ecomm,
+   room: room,
 
 });
 

@@ -1,19 +1,19 @@
-import { REPLACE_PRODUCTS} from '../actions/roomsAction'
+import { REPLACE_ROOMS} from '../actions/roomsAction'
 
 const initialState = {
-	products: [],
+	rooms: [],
 
 };
 
-const ecommReducers = (state = initialState, action) => {
-	if (action.type === REPLACE_PRODUCTS) {
+const roomReducers = (state = initialState, action) => {
+	if (action.type === REPLACE_ROOMS) {
 		return {
 			...state,
-			products: action.products
+			rooms: action.rooms
 		};
 	} 
 	return state;
 }
 
 
-export default ecommReducers
+export default roomReducers

@@ -3,22 +3,22 @@ import React, { Component } from 'react';
 
 import "./style.css"
 import { connect } from 'react-redux'
-import { loadProducts } from '../actions/roomsAction';
+import { loadRooms } from '../actions/roomsAction';
 
-class ProductList extends Component {
+class RoomList extends Component {
     componentWillMount() {
-        this.props.loadProducts()
+        this.props.loadRooms()
     }
 
 
     render() {
-        const { products } = this.props
+        const { rooms } = this.props
         const classes = this.props.classes;
 
         return (
              
             <div className=" contenedor contenedor_habitacion" key="Subheader" >
-               {products.map((d, index) => (
+               {rooms.map((d, index) => (
                     <div className="habitacion" key={d.image}>
                         <div className="img">
                             <img src={d.image} alt={d.name} />
@@ -30,15 +30,15 @@ class ProductList extends Component {
                                 </h3>
                                 <p>
                                    S/ {d.price}
-                    </p>
+                                </p>
                             </div>
                             <div className="info info_color">
                                 <h3>
                                     Mas informacion
-                    </h3>
+                                </h3>
                                 <p>
                                     Reservar
-                    </p>
+                                </p>
                             </div>
                         </div>
                     </div>
@@ -53,17 +53,17 @@ class ProductList extends Component {
 
 function mapStateToProps(state) {
     return {
-        products: state.ecomm.products
+        rooms: state.room.rooms
     }
 }
 
 function mapDispatchToProps(dispatch) {
     return {
 
-        loadProducts: () => {
-            dispatch(loadProducts());
+        loadRooms: () => {
+            dispatch(loadRooms());
         }
     }
 }
 
-export default connect(mapStateToProps, mapDispatchToProps)(ProductList)
+export default connect(mapStateToProps, mapDispatchToProps)(RoomList)
