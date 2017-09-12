@@ -1,5 +1,11 @@
 import React, { Component } from 'react';
+import {
+    Switch,
+    Route,
+    Link,
+    NavLink
 
+} from 'react-router-dom'
 
 import "./style.css"
 import { connect } from 'react-redux'
@@ -33,9 +39,7 @@ class RoomList extends Component {
                                 </p>
                             </div>
                             <div className="info info_color">
-                                <h3>
-                                    Mas informacion
-                                </h3>
+                                <NavLink exact to="/Informations"  activeClassName="selected"><h3>Mas informacion</h3></NavLink>
                                 <p>
                                     Reservar
                                 </p>
