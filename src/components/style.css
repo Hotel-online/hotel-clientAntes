@@ -109,6 +109,19 @@ footer{
     border: 2px solid black;
     margin-top: 30px;
 }
+.fotos {
+  width: 75%;
+  margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.f_hotel {
+  width: 280px;
+  height: 190px;
+  margin: 10px 10px;
+  border: 2px solid black;
+}
 .info{
   display: flex;
   justify-content: space-around;
