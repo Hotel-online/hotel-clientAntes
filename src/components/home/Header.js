@@ -21,7 +21,7 @@ class Header extends Component {
                     <li><NavLink exact to="photos" activeClassName="selected">FOTOS</NavLink></li>
                     <li><NavLink exact to="logins" activeClassName="selected">Identificate</NavLink></li>
                     <li><NavLink exact to="forms" activeClassName="selected">Registrate</NavLink></li>
-                
+
                 </ul>
                 <span>
                   <i className="fa fa-bars fa-2x " aria-hidden="true"></i>
